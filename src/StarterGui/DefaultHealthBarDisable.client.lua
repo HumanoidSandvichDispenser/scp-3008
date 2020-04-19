@@ -1,0 +1,1 @@
+game.StarterGui:SetCoreGuiEnabled("Health", false)

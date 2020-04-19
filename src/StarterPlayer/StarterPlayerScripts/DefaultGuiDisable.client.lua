@@ -1,0 +1,5 @@
+wait()
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
+StarterGui:SetCore("TopbarEnabled", true)
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)

@@ -1,0 +1,1 @@
+game:GetService("Lighting").FogEnd = 768 -- Fog is on during playtesting
